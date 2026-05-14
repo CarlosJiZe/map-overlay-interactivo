@@ -1,0 +1,24 @@
+Archivo de aristas
+#############################################
+Nombre  Origen  Pareja  Cara    Sigue   Antes
+#############################################
+he1     v1      he2     C_inf   he3     he9
+he2     v2      he1     C1      he10    he4
+he3     v2      he4     C_inf   he19    he1
+he4     v3      he3     C1      he2     he17
+he5     v3      he6     C2      he7     he20
+he6     v4      he5     C3      he18    he8
+he7     v4      he8     C2      he14    he5
+he8     v5      he7     C3      he6     he16
+he9     v5      he10    C_inf   he1     he13
+he10    v1      he9     C1      he15    he2
+he11    v6      he12    C_inf   he13    he19
+he12    v7      he11    C2      he20    he14
+he13    v7      he14    C_inf   he9     he11
+he14    v5      he13    C2      he12    he7
+he15    v5      he16    C1      he17    he10
+he16    v8      he15    C3      he8     he18
+he17    v8      he18    C1      he4     he15
+he18    v3      he17    C3      he16    he6
+he19    v3      he20    C_inf   he11    he3
+he20    v6      he19    C2      he5     he12

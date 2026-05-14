@@ -1,0 +1,12 @@
+Archivo de aristas
+#############################################
+Nombre  Origen  Pareja  Cara    Sigue   Antes
+#############################################
+he1     v1      he2     None    he6     he2
+he2     v2      he1     None    he1     he8
+he3     v2      he4     None    he4     he5
+he4     v3      he3     None    he7     he3
+he5     v4      he6     None    he3     he6
+he6     v2      he5     None    he5     he1
+he7     v2      he8     None    he8     he4
+he8     v5      he7     None    he2     he7
